@@ -35,7 +35,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "https://frontendmds.web.app")//prueba con link de firebase
+@CrossOrigin(origins = "https://frontendoac.web.app")//prueba con link de firebase
 public class AuthController {
     @Autowired
     PasswordEncoder passwordEncoder;
